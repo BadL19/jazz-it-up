@@ -19,6 +19,10 @@ import drywall1 from "../assets/gallery/drywall-1.jpg";
 import mudtape1 from "../assets/gallery/mudtape-1.jpg";
 import stain1 from "../assets/gallery/stain-1.jpg";
 import drywall2 from "../assets/gallery/drywall2.jpg";
+import stain2 from "../assets/gallery/stain2.jpg";
+import stain3 from "../assets/gallery/stain3.jpg";
+import floor10 from "../assets/gallery/floor10.jpg";
+import clean1 from "../assets/gallery/clean1.jpg";
 
 export const SERVICES = [
   {
@@ -99,7 +103,7 @@ export const SERVICES = [
       "Hardware and fixtures removed instead of taped around",
     ],
     cover: stain1,
-    gallery: [stain1],
+    gallery: [stain1, stain2, stain3],
   },
   {
     slug: "pressure-washing",
@@ -119,7 +123,7 @@ export const SERVICES = [
   },
 ];
 
-export const SLIDESHOW_IMAGES = [paint7, stain1, paint3, paint8, drywall2];
+export const SLIDESHOW_IMAGES = [stain2, stain3, clean1, floor10, drywall2];
 
 export const PHONE_DISPLAY = "705 206 5682";
 export const PHONE_TEL = "7052065682";
