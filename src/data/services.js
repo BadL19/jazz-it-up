@@ -18,11 +18,6 @@ import paint8 from "../assets/gallery/paint-8.jpg";
 import drywall1 from "../assets/gallery/drywall-1.jpg";
 import mudtape1 from "../assets/gallery/mudtape-1.jpg";
 import stain1 from "../assets/gallery/stain-1.jpg";
-import drywall2 from "../assets/gallery/drywall2.jpg";
-import stain2 from "../assets/gallery/stain2.jpg";
-import stain3 from "../assets/gallery/stain3.jpg";
-import floor10 from "../assets/gallery/floor10.jpg";
-import clean1 from "../assets/gallery/clean1.jpg";
 
 export const SERVICES = [
   {
@@ -103,7 +98,7 @@ export const SERVICES = [
       "Hardware and fixtures removed instead of taped around",
     ],
     cover: stain1,
-    gallery: [stain1, stain2, stain3],
+    gallery: [stain1],
   },
   {
     slug: "pressure-washing",
@@ -123,7 +118,20 @@ export const SERVICES = [
   },
 ];
 
-export const SLIDESHOW_IMAGES = [stain2, stain3, clean1, floor10, drywall2];
+export const SLIDESHOW_IMAGES = [paint7, stain1, paint3, paint8, drywall1];
 
 export const PHONE_DISPLAY = "705 206 5682";
 export const PHONE_TEL = "7052065682";
+
+export const CONTACT_EMAIL = "jazzitupcontracting@gmail.com";
+
+// TODO: get a free access key at https://web3forms.com by entering
+// jazzitupcontracting@gmail.com there (they email you the key instantly,
+// no account/password needed). Paste it here. Until this is a real key,
+// submissions will fail and the form will tell the visitor to call/text.
+export const WEB3FORMS_ACCESS_KEY = "ba282925-26d4-4cca-a7e9-34ff24b6357e";
+
+// Could not confirm the exact Facebook page URL, so this points to a
+// search for the page name instead of guessing a possibly-wrong link.
+// Swap in the real page URL (facebook.com/yourpagename) once you have it.
+export const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61589590684910";
