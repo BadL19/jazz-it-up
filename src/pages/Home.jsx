@@ -99,9 +99,10 @@ export default function Home({ goTo, goToService }) {
               entirely mine.
             </p>
             <p className="text-ink/60 leading-relaxed">
-              There is no crew to blame and no subcontractor to track down. If
-              something is off, it is on me, and I would rather fix it quietly
-              than explain it loudly.
+              Most of the time it is just me. When a job calls for an extra
+              set of hands, I bring in people I trust, but I am still the
+              one who answers for the work. If something is off, it is on
+              me, and I would rather fix it quietly than explain it loudly.
             </p>
           </div>
           <div className="md:col-span-2 bg-forest-50 rounded-2xl p-8">
